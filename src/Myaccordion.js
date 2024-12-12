@@ -17,9 +17,11 @@ const Myaccordion = ({question , answer}) => {
     {/* is answer ko taab hi dekhaiye jab useState true ho   */}
    {
     show && <p className='answer'> {answer} </p>
-   }
+   } 
     </>
   )
 }
 
 export default Myaccordion
+
+
